@@ -166,3 +166,54 @@ input:checked + .slider:before {
 	padding: 10px 20px;
 	text-decoration: none;
 }
+
+/*
+=======================
+  	Services Section
+=======================
+*/
+#servicesHead {
+	font-size: 40px;
+	margin: 40px 0px;
+}
+
+#services {
+	/*display: inline-block;*/
+	margin: 40px;
+}
+
+.services {
+	margin: 0px 20px;
+	display: inline-block;
+	height: 500px;
+	width: 28%;
+	text-align: center;
+	border-radius: 30px;
+	background-color: white;
+	cursor: pointer;
+	transition: 0.2s ease all;
+	box-shadow: 0px 22px 46px -13px rgba(0,0,0,0.89);
+	-webkit-box-shadow: 0px 22px 46px -13px rgba(0,0,0,0.89);
+	-moz-box-shadow: 0px 22px 46px -13px rgba(0,0,0,0.89);
+} 
+
+.services:hover {
+	transform: scale(1.05);
+}
+
+.services h1 {
+	color: black !important;
+	letter-spacing: 2px
+}
+.services i {
+	padding: 30px;
+	margin: 10px 0px;
+	color: black;
+	font-size: 40px
+}
+
+.services p {
+	padding: 20px;
+	color: black;
+	letter-spacing: 2px
+}
