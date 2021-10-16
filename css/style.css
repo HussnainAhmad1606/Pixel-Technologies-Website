@@ -8,5 +8,161 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	background-color: red;
+	font-family: sans-serif;
+}
+
+/*
+=======================
+   	  Dark Mode
+=======================
+*/
+body[data-theme="light"] {
+	background-color: white;
+	color: #1d0d77;
+}
+
+body[data-theme="dark"] {
+	background-color: #151515;
+	color: white !important;
+}
+
+/*
+=======================
+  		Navbar
+=======================
+*/
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	width: 100%;
+	height: 8vh;
+}
+.logo img {
+	width: 170px;
+	height: 50px;
+	margin-left: 30px;
+}
+
+.hamburger {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	font-size: 30px;
+	margin-left: 20px;
+	color: #1d0d77;
+}
+
+
+/*
+=======================
+  Toggle Button
+=======================
+*/
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 70px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #1d0d77;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(35px);
+  -ms-transform: translateX(3px);
+  transform: translateX(35px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
+/*
+=======================
+  	Hero Section
+=======================
+*/
+#heading {
+	font-weight: bolder;
+	letter-spacing: 5px
+}
+#hero {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 92vh;
+	padding: 20px;
+}
+
+#heroImg {
+	width: 650px;
+	height: 650px;
+}
+
+#hero div {
+	width: 50%;
+}
+
+
+
+#desc {
+	margin: 30px 0px;
+	letter-spacing: 3px;
+	font-weight: lighter;
+}
+#learnMore {
+	background: #1d0d77;
+	border-radius: 20px;
+	color: white;	
+	padding: 10px 20px;
+	text-decoration: none;
 }
