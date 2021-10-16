@@ -1,0 +1,2 @@
+"# pixel-technologies-website"  initgit add README.mdgit commit -m "first commit"git branch -M maingit remote add origin https://github.com/HussnainAhmad1606/pixel-technologies-website.gitgit push -u origin main
+"# pixel-technologies-website"  initgit add README.mdgit commit -m "first commit"git branch -M maingit remote add origin https://github.com/HussnainAhmad1606/pixel-technologies-website.gitgit push -u origin main
