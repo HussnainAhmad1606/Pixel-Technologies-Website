@@ -192,6 +192,7 @@ input:checked + .slider:before {
 
 .services {
 	height:350px;
+	max-height: 600px;
 	margin: 20px 20px;
 	display: inline-block;
 	width: 28%;
