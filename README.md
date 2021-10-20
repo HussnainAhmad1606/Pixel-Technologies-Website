@@ -4,4 +4,4 @@ This repository contains the source code for the website of my company Pixel Tec
 
 ## Demo
 
-This website is currently in Development Stage. Check out the demo of this website at https://hussnainahmad1606.github.io/Pixel-Technologies-Website/
+This website is completed. Check out the demo of this website at https://hussnainahmad1606.github.io/Pixel-Technologies-Website/
