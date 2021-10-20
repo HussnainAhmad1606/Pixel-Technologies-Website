@@ -1,0 +1,95 @@
+/*
+File contains the code for Responsiveness
+ of the website
+*/
+@media only screen and (max-width: 1140px) {
+  #hero {
+  	flex-direction: column;
+  	margin-top: 40px;
+  	text-align: center;
+  }
+  .heroImg {
+  	background-color: red;
+  }
+
+  .services {
+  	width: 40%;
+  }
+
+  #about {
+  	flex-direction: column-reverse;
+  	text-align: center;
+
+  }
+  #aboutImg, #contactImg {
+  	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  }
+
+  #contact {
+  	flex-direction: column;
+  }
+  #about div {
+  	width: 80%;
+  }
+
+}
+
+
+@media only screen and (max-width: 670px) {
+	.services {
+		width: 96%;
+	}
+
+	#contactImg, #aboutImg {
+		width: 300px;
+		height: 300px;
+	}
+
+	#hero {
+		margin-top: 10px
+	}
+	#hero div {
+		width: 80%;
+	}
+
+	#heroImg  {
+		width: 350px;
+		height: 350px;
+	}
+
+	#contactHead {
+		font-size: 30px
+	}
+	#about div {
+  	width: 80%;
+  }
+}
+
+
+@media only screen and (max-width: 400px) {
+	#aboutImg, #contactImg {
+		width: 250px;
+		height: 250px;
+		display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  }
+
+  #portfolioImages img {
+  	width: 80%;
+  }
+  #about div {
+  	width: 80%;
+  }
+
+  .services h1 {
+  	padding: 5px;
+  }
+  .services {
+  	padding: 10px 0px;
+  }
+}

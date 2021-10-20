@@ -190,9 +190,9 @@ input:checked + .slider:before {
 }
 
 .services {
-	margin: 0px 20px;
+	max-height: 1000px;
+	margin: 20px 20px;
 	display: inline-block;
-	height: 500px;
 	width: 28%;
 	text-align: center;
 	border-radius: 30px;
@@ -288,7 +288,7 @@ input:checked + .slider:before {
 }
 
 #about div.about-info {
-	padding: 40px;
+	padding: 20px;
 }
 
 #about div.about-info p {
@@ -368,3 +368,6 @@ footer {
 	background-color: #1d0d77;
 	color: white !important;
 }
+
+
+
