@@ -167,6 +167,7 @@ input:checked + .slider:before {
 	text-decoration: none;
 	transition: 0.4s ease all;
 	cursor: pointer;
+	border: none;
 }
 
 .btn:hover {
@@ -224,6 +225,46 @@ input:checked + .slider:before {
 	letter-spacing: 2px
 }
 
+
+/*
+=======================
+  	  Portfolio
+=======================
+*/
+#portfolio {
+	margin-top: 100px;
+}
+
+#portfolioHead {
+	font-size: 40px;
+	letter-spacing: 3px;
+}
+
+#portfolioImages img {
+	width: 350px;
+	height: 250px;
+	margin: 10px;
+}
+.btns button {
+	font-size: 20px;
+	margin: 30px 10px;
+}
+
+#portfolioShowMore {
+	font-size: 20px;
+	margin: 20px 0px;
+}
+
+@keyframes animate {
+	from {
+		transform: scale(0);
+	}
+
+	to {
+		transform: scale(1);
+				
+	}		
+}
 /*
 =======================
   	About Section
