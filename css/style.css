@@ -41,9 +41,10 @@ nav {
 	height: 8vh;
 }
 .logo img {
-	width: 170px;
+	width: 50px;
 	height: 50px;
 	margin-left: 30px;
+	cursor: pointer;
 }
 
 .hamburger {
@@ -190,7 +191,7 @@ input:checked + .slider:before {
 }
 
 .services {
-	max-height: 1000px;
+	height:350px;
 	margin: 20px 20px;
 	display: inline-block;
 	width: 28%;
@@ -295,7 +296,6 @@ input:checked + .slider:before {
 	margin: 40px 0px;
 	letter-spacing: 3px;
 }
-
 #aboutHead {
 	font-size: 40px;
 	letter-spacing: 4px;

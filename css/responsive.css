@@ -5,7 +5,7 @@ File contains the code for Responsiveness
 @media only screen and (max-width: 1140px) {
   #hero {
   	flex-direction: column;
-  	margin-top: 40px;
+  	margin-top: 140px;
   	text-align: center;
   }
   .heroImg {

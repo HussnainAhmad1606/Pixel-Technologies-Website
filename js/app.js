@@ -2,8 +2,11 @@
 let btn = document.getElementById("toggleBtn");
 
 let hamburger = document.getElementById("hamburger")
-btn.addEventListener("change", toggleTheme);
 let body = document.getElementsByTagName("body")[0];
+btn.addEventListener("click", toggleTheme);
+
+
+
 toggleTheme();
 
 
@@ -11,6 +14,7 @@ function toggleTheme() {
 	if (btn.checked) {
 		body.setAttribute("data-theme", "dark");
 		hamburger.style.color = "white";
+		
 	}
 	else {
 		body.setAttribute("data-theme", "light");
