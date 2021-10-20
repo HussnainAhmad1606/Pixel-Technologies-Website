@@ -19,11 +19,13 @@
 body[data-theme="light"] {
 	background-color: white;
 	color: #1d0d77;
+	scroll-behavior: smooth;
 }
 
 body[data-theme="dark"] {
 	background-color: #151515;
 	color: white !important;
+	scroll-behavior: smooth;
 }
 
 /*
@@ -31,7 +33,75 @@ body[data-theme="dark"] {
   		Navbar
 =======================
 */
+#sidebar {
+	width: 300px;
+	height: 100%;
+	background-color: #1d0d77;
+	z-index: 1;
+	position: absolute;
+	box-shadow: 6px 0px 19px 1px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 6px 0px 19px 1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 6px 0px 19px 1px rgba(0,0,0,0.75);
+	display: none
+	
+}
+#sidebar h3 {
+	margin: 20px;
+	color: white;
+	font-size: 25px;
+}
+#sidebar div.close {
+	float: right;
+	font-size: 25px;
+	padding: 25px;
+}
+#sidebar div.close i {
+	cursor: pointer;
+}
 
+#menus {
+	height: 50vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+}
+#closeMenu {
+	color: white
+}
+
+.menu a {
+	text-decoration: none;
+	color: white;
+	transition: 0.2s ease all;
+}
+
+.menu a:hover {
+	transform: scale(1.05);
+}
+
+.menu i {
+	background-color: white;
+	color: #1d0d77;
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#menus {
+	margin-top: 60px;
+}
+
+#menus div {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 200px;
+
+}
 nav {
 	display: flex;
 	justify-content: space-between;
@@ -153,8 +223,6 @@ input:checked + .slider:before {
 	width: 50%;
 }
 
-
-
 #desc {
 	margin: 30px 0px;
 	letter-spacing: 3px;
@@ -246,6 +314,11 @@ input:checked + .slider:before {
 	width: 350px;
 	height: 250px;
 	margin: 10px;
+	transition: 0.2s ease all;
+	cursor: pointer;
+}
+#portfolioImages img:hover {
+	transform: scale(1.05);
 }
 .btns button {
 	font-size: 20px;

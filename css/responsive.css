@@ -39,6 +39,9 @@ File contains the code for Responsiveness
 
 
 @media only screen and (max-width: 670px) {
+	#sidebar {
+	/*width: 50%;*/
+}
 	.services {
 		width: 96%;
 	}
@@ -70,6 +73,9 @@ File contains the code for Responsiveness
 
 
 @media only screen and (max-width: 400px) {
+	#sidebar {
+	/*width: 90%;*/
+}
 	#aboutImg, #contactImg {
 		width: 250px;
 		height: 250px;
@@ -94,10 +100,10 @@ File contains the code for Responsiveness
   }
 
   #hero {
-  	margin-top: 50px;
+  	margin-top: 120px;
   }
   .services {
-  	height: 450px;
+  	height: 520px;
   }
 
 	#footerHead {
