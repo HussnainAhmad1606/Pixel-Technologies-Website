@@ -159,12 +159,13 @@ input:checked + .slider:before {
 	letter-spacing: 3px;
 	font-weight: lighter;
 }
-#learnMore {
+.btn {
 	background: #1d0d77;
 	border-radius: 20px;
 	color: white;	
 	padding: 10px 20px;
 	text-decoration: none;
+	cursor: pointer;
 }
 
 /*
@@ -217,3 +218,45 @@ input:checked + .slider:before {
 	color: black;
 	letter-spacing: 2px
 }
+
+/*
+=======================
+  	About Section
+=======================
+*/
+
+#about {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px
+}
+
+#aboutImg {
+	width: 650px;
+	height: 550px;
+}
+
+#about div {
+	width: 50%;
+}
+
+#about div.about-info {
+	padding: 40px;
+}
+
+#about div.about-info p {
+	margin: 40px 0px;
+	letter-spacing: 3px;
+}
+
+#aboutHead {
+	font-size: 40px;
+	letter-spacing: 4px;
+	margin: 20px 0px;
+}
+
+
+
+
+
